@@ -22,7 +22,7 @@ export class User extends Document {
   })
   @IsNotEmpty()
   @IsString()
-  username: string;
+  name: string;
 }
 
 export const UserSchema = SchemaFactory.createForClass(User);
